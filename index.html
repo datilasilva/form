@@ -1,0 +1,71 @@
+<!--Desafio Curso Discovery Rocketseat para elaboração de formulário com campo de nome, email e mensagem -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        function funcao1()
+        {
+        alert("Agradecemos sua participação!");
+        }
+    </script>
+</head>
+
+<body style="background: black">
+  <style>
+    
+    h1{
+      color: white; font: size 20px; text-align: center;
+      }
+    fieldset{
+      width: 10%; margin: 0px auto;
+    }
+    legend{
+      color: white; font: size 16px;
+    }
+    label{
+      color: white; font: size 20px
+    }
+    button{
+      padding: 4px 11px;
+      border: 1px solid #130561;
+      background-color: rgb(185, 181, 221);
+      border-radius: 8px;
+      border-radius: 8px;
+      border-radius: 8px;
+    }
+
+  </style>
+    <h1>Desafio Rocketseat para elaboração de formulário com campo de nome, email e mensagem</h1>
+    <form action="">
+        
+        <fieldset>
+
+        <legend>Contato</legend>
+
+        <label for="name">Nome Completo:</label>
+        <br>
+        <input id="name" type="text" name="nome" placeholder="Digite aqui seu nome"/> 
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" type="email" placeholder="exemplo@exemplo.com">
+        <br>
+        <br>
+        <label for="message">Mensagem: <br /></label>
+        <br>
+        <textarea name="message" id="message" cols="20" rows="10" placeholder="Digite aqui sua mensagem"></textarea> 
+        <br>
+        <br>
+          
+        <button type="submit" onclick="funcao1()" value="Exibir Alert">Enviar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
